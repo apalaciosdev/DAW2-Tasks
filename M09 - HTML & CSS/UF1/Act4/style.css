@@ -1,0 +1,15 @@
+*{
+  border: 1px solid white;
+}
+
+.purpleBG{
+  background-color: #FF00FF;
+}
+
+.naranjaBG{
+  background-color: #FF9955;
+}
+
+.azulBG{
+  background-color: #0000FF;
+}
