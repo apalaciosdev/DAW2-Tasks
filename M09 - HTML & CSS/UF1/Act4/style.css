@@ -2,7 +2,7 @@
   border: 1px solid white;
 }
 
-.purpleBG{
+.violetaBG{
   background-color: #FF00FF;
 }
 
@@ -12,4 +12,12 @@
 
 .azulBG{
   background-color: #0000FF;
+}
+
+.verdeBG{
+  background-color: #00FF00;
+}
+
+.rojoBG{
+  background-color: #FF0000;
 }
