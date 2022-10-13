@@ -1,0 +1,54 @@
+
+/*GENERAL STYLES*/
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold !important;
+  font-size: 2.5em;
+}
+
+p, a, button{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--grey);
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+.primaryButton{
+  background-color: var(--greyBlue);
+  color: white;
+  width: 160px;
+  height: 40px;
+  /* padding: 10px 35px 10px 35px; */
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+
+/* TOOLS */
+
+.centerAlign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leftAlign{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.rightAlign{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+}
