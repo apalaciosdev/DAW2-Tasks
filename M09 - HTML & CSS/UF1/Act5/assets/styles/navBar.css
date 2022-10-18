@@ -1,0 +1,77 @@
+/* NAVBAR */
+
+.userButton{
+
+ 
+  /* padding: 10px 35px 10px 35px; */
+  border: 1px solid grey;
+  border-radius: 200px;
+  font-size: 23px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryNavButton{
+  background-color: var(--greyBlue);
+  width: 120px;
+  height: 35px;
+  margin: 0px 10px 0px 10px;
+  /* padding: 10px 35px 10px 35px; */
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryNavButton *{
+  color: white !important;
+}
+
+.secondaryNavButton{
+  background-color: var(--greenBlue);
+  color: black;
+  width: 90px;
+  height: 25px;
+  margin: 6px 10px 0px 10px;
+  /* padding: 10px 35px 10px 35px; */
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+@media(max-width:992px){
+  .primaryNavButton, .secondaryNavButton, .primaryNavButton *{
+    background-color: white;
+    margin: 0px;
+    border-radius: 0px;
+    color:  var(--grey) !important;
+    width: auto;
+  }
+}
+
+.divSearch {
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+}
+
+
+#navbarNav {
+  margin-top: 10px;
+}
+
