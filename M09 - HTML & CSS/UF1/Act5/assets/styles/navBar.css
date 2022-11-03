@@ -1,7 +1,11 @@
 /* NAVBAR */
 
-.userButton{
+nav{
+  position: fixed;
+  background-color: white;
+}
 
+.userButton{
  
   /* padding: 10px 35px 10px 35px; */
   border: 1px solid grey;
@@ -48,10 +52,48 @@
   align-items: center;
 }
 
+
+
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
   box-shadow: none;
+}
+
+
+
+#navbarNav {
+  margin-right: 10%;
+}
+
+#buttonsNav{
+  position: fixed;
+  margin-top: 7px;
+  top: 0;
+  right: 0;
+  left: 50;
+  padding-right: 20px;
+  z-index: 1030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7em;
+  height: 48px;
+
+
+}
+
+#navbarButtons{
+  margin-top: 0px;
+}
+
+
+#languajeSelect{
+  padding-top: 6px;
+}
+
+#inputSearchNavbar{
+  width: 100%;
 }
 
 @media(max-width:992px){
@@ -62,6 +104,42 @@
     color:  var(--grey) !important;
     width: auto;
   }
+ 
+  #buttonsNav{
+    position: fixed;
+    padding-top: -10px;
+    top: 0;
+    right: 0;
+    left: 50;
+    z-index: 1030;
+    display: flex;
+    justify-content: space-between;
+    width: 9em;
+    padding-right: 0px;
+  }
+
+  #navbarNav {
+    margin-right: 0px;
+  }
+  
+  #navbarNav *{
+    margin-top: 10px;
+  }
+
+  #inputSearchNavbar{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  #languajeSelect{
+    padding-top: 0px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
 }
 
 .divSearch {
@@ -71,7 +149,22 @@
 }
 
 
-#navbarNav {
-  margin-top: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
